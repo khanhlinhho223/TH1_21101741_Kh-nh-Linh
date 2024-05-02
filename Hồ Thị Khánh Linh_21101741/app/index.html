@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chào mừng các bạn đến với trang web của mình</title>
+     <img width = "1900" height = "350" src = "https://i.pinimg.com/564x/80/e7/52/80e75224d5f215c6607a2319b3f635fa.jpg" align="bottom"/> 
+ 
+    <h2 style ="color:#FFFFFF" 
+        align="center"> Chào mừng các bạn đến với trang web của Khánh Linh!
+    </h2>
+  </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("button").click(function(){
+$("p").hide();
+});
+});
+</script>
+  <script>
+$(document).ready(function(){
+$("#p1").hover(function(){
+alert("Bạn đã di chuyển chuột vào");
+},
+function(){
+alert("Thực hiện việc tiếp theo");
+}); 
+});
+    
+</script>
+  <script>
+$(document).ready(function(){
+$("input").focus(function(){
+$(this).css("background-color", "yellow");
+});
+$("input").blur(function(){
+$(this).css("background-color", "green");
+});
+});
+</script>
+  <script>
+$(document).ready(function(){
+$("#hide").click(function(){
+$("p").hide();
+});
+$("#show").click(function(){
+$("p").show();
+});
+});
+</script>
+  <script>
+$(document).ready(function(){
+$("#flip").click(function(){
+$("#panel").slideUp("slow");
+});
+});
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chào mừng các bạn đến với trang web của mình</title>
+    <style>
+       #panel, #flip {
+        padding: 5px;
+        text-align: center;
+        background-color: #e5eecc;
+        border: solid 1px #c3c3c3;
+}
+#panel {
+padding: 50px;
+}
+     
+      
+        body {
+            background-color: #FFCCFF;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+
+        #menu ul {
+            background: black;
+            list-style-type: none;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        #menu li {
+            color: #f1f1f1;
+            display: inline-block;
+            width: 100px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+        }
+
+        #menu a {
+            text-decoration: none;
+            color: White;
+            display: block;
+        }
+
+        #menu a:hover {
+            background: #F1F1F1;
+            color: #333;
+        }
+    </style>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="flip">Xem tiếp</div>
+<div id="panel">Nội dung ở dưới</div>
+
+<p>  <em>Hãy học cách chấp nhận mọi bất hạnh trong cuộc sống, tin tưởng vào bản thân, đừng vì “cơm đời” khó ăn mà không dám nấu. Bạn phải nếm trải đau khổ mới có thể trưởng thành. Khi bạn trưởng thành, gặp qua nhiều người, trải qua nhiều điều, bạn nhất định sẽ hiểu ra, thứ bản thân cần nắm chặt là gì, cũng như thứ bản thân cần buông bỏ là gì. Thế giới này quá rộng lớn, cuộc đời lại ngắn ngủi, nếu không thể làm hài lòng tất cả mọi người, trước tiên hãy làm hài lòng chính mình. Một vài ước mơ, một đời kiên trì, tạo nên những ngày sống trọn vẹn.</em></p>
+
+<button>Ẩn thẻ </button>
+<div id ="menu">
+    <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="sothich.html">Sở thích</a></li>
+        <li><a href="port.html">Portfolio</a></li>
+        <li><a href="lienhe.html">Liên hệ</a></li>
+    </ul>
+</div>
+
+<h3>
+    <div>
+        <em>Giới thiệu về bản thân:</em>
+    </div>
+</h3>
+<ul>
+    <li><u>Tên</u>: Khánh Linh </li>
+    <li><u>Chuyên ngành</u>: Thương mại điện tử</li>
+    <li><u>Trường </u>: Đại học Công nghiệp Thành phố Hồ Chí Minh</li>
+</ul>
+<img width="500" height="250" src="https://i.pinimg.com/originals/a5/7b/f9/a57bf940269ffbf167f8b0c5fd50315c.gif" align="right"/>
+<h3>
+    <div>
+        <em>Sở thích của mình: </em>
+    </div>
+</h3>
+<ul>
+    <li>Đánh cầu lông</li>
+    <li>Nghe nhạc</li>
+    <li>Nghe podcast</li>
+    <li>Đọc sách</li>
+</ul>
+<h3>
+    <div>
+        <em>Hãy đặt câu hỏi cho mình nhé</em>
+    </div>
+</h3>
+<form>
+    <div>
+        <input type="text" placeholder="Điền câu hỏi của bạn vào đây"/>
+        <button>
+            Gửi câu hỏi
+        </button>
+    </div>
+</form>
+
+<h3>
+    <div>
+        <em>Lấy thông tin người dùng</em>
+    </div>
+</h3>
+<form>
+    <div>
+        <label>Điền thông tin của bạn:</label>
+        <input type="text" placeholder="Tên của bạn"/>
+
+        <select>
+            <option>Nữ</option>
+            <option>Nam</option>
+        </select>
+    </div>
+    <div>
+        <label>Bạn có phải là sinh viên trường Đại học Công nghiệp không?</label>
+        <input type="radio" name="sinh viên"> Phải
+        <input type="radio" name="sinh viên"> Không
+    </div>
+    <label>Nếu phải, vui lòng điền thông tin dưới đây giúp mình nhé!</label>
+    <table border="1" width="100%">
+        <tr>
+            <th align="center"> Họ và tên </th>
+            <th> Lớp danh nghĩa </th>
+            <th> Khoa </th>
+        </tr>
+        <tr>
+            <td align="center"> Huỳnh Lê Hiếu Đông </td>
+            <td align="center"> DHTMDT17E </td>
+            <td align="center"> Thương mại du lịch </td>
+        </tr>
+        <tr>
+            <td align="center">Lê Thảo Ly </td>
+            <td align="center"> DHTMDT17E </td>
+            <td align="center">Thương mại du lịch </td>
+        </tr>
+    </table>
+</form>
+<footer>
+    <h3>
+        <div>
+            <em> Thông tin liên lạc của mình </em>
+        </div>
+    </h3>
+    <ul>
+        <li>Facebook: <a href="https://www.facebook.com/lll2233"> Facebook của mình</a></li>
+        <li> Email: hklinh2232003@gmail.com </li>
+    </ul>
+</footer>
+
+<script>
+    $(document).ready(function(){
+        // Hide the paragraph
+        $("#hide").click(function(){
+            $("p").hide();
+        });
+
+        // Show the paragraph
+        $("#show").click(function(){
+            $("p").show();
+        });
+
+        // Toggle the visibility of the paragraph
+        $("#toggle").click(function(){
+            $("p").toggle();
+        });
+
+        // Slide the paragraph up or down
+        $("#slide").click(function(){
+            $("p").slideToggle();
+        });
+
+        // Fade the paragraph in or out
+        $("#fade").click(function(){
+            $("p").fadeToggle();
+        });
+    });
+</script>
+  Name: <input type="text" name="fullname"><br>
+Email: <input type="text" name="email">
+  <p>Khiêm tốn - Thật thà - Dũng cảm</p>
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+<p id="p1">Demo hover</p>
+</body>
+</html>
